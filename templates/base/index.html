@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,20 +14,20 @@
     <title>Visaco - Immigration and Visa Consulting Template</title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static 'assets/img/favicon.png' %}" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/visaco-icons.css" rel="stylesheet">
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
-    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/animate.min.css" rel="stylesheet">
-    <link href="assets/css/validnavs.css" rel="stylesheet">
-    <link href="assets/css/helper.css" rel="stylesheet">
-    <link href="assets/css/unit-test.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/visaco-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/magnific-popup.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/swiper-bundle.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/validnavs.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/helper.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/unit-test.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'style.css' %}" rel="stylesheet">
     <!-- ========== End Stylesheet ========== -->
 
 </head>
@@ -75,7 +77,7 @@
                     <div class="d-flex">
                         <div class="dropdown language-switcher">
                             <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="assets/img/icon/us-flag.png" alt="Image Not Found">
+                                <img src="{% static 'assets/img/icon/us-flag.png' %}" alt="Image Not Found">
                                 English <i class="fas fa-angle-down"></i>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -92,7 +94,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="assets/img/icon/twitter-x.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/twitter-x.png' %}" alt="Image Not Found">
                                     </a>
                                 </li>
                                 <li>
@@ -136,8 +138,8 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo-light.svg" class="logo logo-display" alt="Logo">
-                        <img src="assets/img/logo.svg" class="logo logo-scrolled" alt="Logo">
+                        <img src="{% static 'assets/img/logo-light.svg' %}" class="logo logo-display" alt="Logo">
+                        <img src="{% static 'assets/img/logo.svg' %}" class="logo logo-scrolled" alt="Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
@@ -145,7 +147,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
 
-                    <img src="assets/img/logo.svg" alt="Logo">
+                    <img src="{% static 'assets/img/logo.svg' %}" alt="Logo">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-times"></i>
                     </button>
@@ -158,7 +160,7 @@
                                     <div class="col-menu-wrap">
                                         <div class="col-item">
                                             <div class="menu-thumb">
-                                                <img src="assets/img/demo/home-1.jpg" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/demo/home-1.jpg' %}" alt="Image Not Found">
                                                 <div class="overlay">
                                                     <a href="index.html">Multipage</a>
                                                     <a href="index-op.html">One Page</a>
@@ -168,7 +170,7 @@
                                         </div>
                                         <div class="col-item">
                                             <div class="menu-thumb">
-                                                <img src="assets/img/demo/home-2.jpg" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/demo/home-2.jpg' %}" alt="Image Not Found">
                                                 <div class="overlay">
                                                     <a href="index-2.html">Multipage</a>
                                                     <a href="index-2-op.html">One Page</a>
@@ -178,7 +180,7 @@
                                         </div>
                                         <div class="col-item">
                                             <div class="menu-thumb">
-                                                <img src="assets/img/demo/home-3.jpg" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/demo/home-3.jpg' %}" alt="Image Not Found">
                                                 <div class="overlay">
                                                     <a href="index-3.html">Multpage</a>
                                                     <a href="index-3-op.html">One Page</a>
@@ -188,7 +190,7 @@
                                         </div>
                                         <div class="col-item">
                                             <div class="menu-thumb">
-                                                <img src="assets/img/demo/home-4.jpg" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/demo/home-4.jpg' %}" alt="Image Not Found">
                                                 <div class="overlay">
                                                     <a href="index-4.html">Multipage</a>
                                                     <a href="index-4-op.html">One Page</a>
@@ -198,7 +200,7 @@
                                         </div>
                                         <div class="col-item">
                                             <div class="menu-thumb">
-                                                <img src="assets/img/demo/home-5.jpg" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/demo/home-5.jpg' %}" alt="Image Not Found">
                                                 <div class="overlay">
                                                     <a href="index-5.html">Multipage</a>
                                                     <a href="index-5-op.html">One Page</a>
@@ -208,7 +210,7 @@
                                         </div>
                                         <div class="col-item">
                                             <div class="menu-thumb">
-                                                <img src="assets/img/demo/home-6.jpg" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/demo/home-6.jpg' %}" alt="Image Not Found">
                                                 <div class="overlay">
                                                     <a href="index-6.html">Multipage</a>
                                                     <a href="index-6-op.html">One Page</a>
@@ -219,28 +221,76 @@
                                         
                                     </div>
                                     <div class="megamenu-banner">
-                                        <img src="assets/img/demo/banner.jpg" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/demo/banner.jpg' %}" alt="Image Not Found">
                                         <a href="https://www.youtube.com/watch?v=35mvh-2oII8" class="popup-youtube video-play-button"><i class="fas fa-play"></i></a>
                                         <h6 class="title"><a href="#">Watch Intro Video</a></h6>
                                     </div>
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a class="smooth-menu" href="#about">About</a>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="about-us.html">About Style One</a></li>
+                                        <li><a href="about-us-2.html">About Style Two</a></li>
+                                        <li><a href="about-us-3.html">About Style Three</a></li>
+                                        <li><a href="about-us-4.html">About Style Four</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Coaching</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="coaching.html">Coaching Style One</a></li>
+                                        <li><a href="coaching-details.html">Coaching Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Team</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="team.html">Team Style One</a></li>
+                                        <li><a href="team-2.html">Team Style Two</a></li>
+                                        <li><a href="team-details.html">Team Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="apply-form.html">Application Form</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="404.html">Error Page</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a class="smooth-menu" href="#services">Services</a>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Country</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="country.html">Country Version One</a></li>
+                                <li><a href="country-2.html">Country Version Two</a></li>
+                                <li><a href="country-3.html">Country Version Three</a></li>
+                                <li><a href="country-details.html">Country Details</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a class="smooth-menu" href="#country">Country</a>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Visa</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="visa.html">Visa Version One</a></li>
+                                <li><a href="visa-2.html">Visa Version Two</a></li>
+                                <li><a href="visa-3.html">Visa Version Three</a></li>
+                                <li><a href="visa-details.html">Visa Details</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a class="smooth-menu" href="#coaching">Coaching</a>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog-standard.html">Blog Standard</a></li>
+                                <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
+                                <li><a href="blog-2-colum.html">Blog Grid Two Colum</a></li>
+                                <li><a href="blog-3-colum.html">Blog Grid Three Colum</a></li>
+                                <li><a href="blog-single.html">Blog Single</a></li>
+                                <li><a href="blog-single-with-sidebar.html">Blog Single With Sidebar</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a class="smooth-menu" href="#blog">Blog</a>
-                        </li>
+                        <li><a href="contact-us.html">contact</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
 
@@ -284,15 +334,14 @@
                     <div class="col-lg-6">
                         <div class="banner-style-one-info">
                             <div class="shape wow fadeInLeft" data-wow-delay="300ms">
-                                <img src="assets/img/shape/1.png" alt="Image Not Found">
+                                <img src="{{ settings_id.image.url }}" alt="Image Not Found">
                             </div>
-                            <h4 class="wow fadeInUp">Welcome to visa service</h4>
-                            <h2 class="split-text">Immigration & Visa <strong>Consultant</strong></h2>
+                            <h4 class="wow fadeInUp">{{ settings_id.welcome }}</h4>
+                            <h2 class="split-text">{{ settings_id.title }}</h2>
                             <ul class="wow fadeInUp" data-wow-delay="350ms">
-                                <li>Tailored Immigration Solutions</li>
-                                <li>Financial Consulting Plan</li>
-                                <li>Risk Management Solutions</li>
-                                <li>Expert Legal Support</li>
+                                {% for banner in banner_all %}
+                                    <li>{{ banner.title }}</li>
+                                {% endfor %}
                             </ul>
                             <div class="button mt-30 wow fadeInUp" data-wow-delay="500ms">
                                 <a href="about-us.html" class="btn-style-one circle">Discover More <span></span></a>
@@ -301,8 +350,8 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="banner-style-one-thumb">
-                            <img class="wow fadeInUp" src="assets/img/illustration/1.png" alt="Image Not Found">
-                            <img src="assets/img/shape/2.png" alt="Image Not Found">
+                            <img class="wow fadeInUp" src="{% static 'assets/img/illustration/1.png' %}" alt="Image Not Found">
+                            <img src="{% static 'assets/img/shape/2.png' %}" alt="Image Not Found">
                         </div>
                     </div>
                 </div>
@@ -313,14 +362,14 @@
 
     <!-- Start About 
     ============================================= -->
-    <div id="about" class="about-style-one-area default-padding">
+    <div class="about-style-one-area default-padding">
         <div class="container">
             <div class="row align-center">
                 <div class="col-lg-6">
                     <div class="thumb-style-one">
-                        <img class="wow fadeInUp" src="assets/img/about/1.jpg" alt="Image Not Found">
-                        <img class="wow fadeInUp" data-wow-delay="300ms" src="assets/img/about/2.jpg" alt="Image Not Found">
-                        <img src="assets/img/shape/19.png" alt="Image Not Found">
+                        <img class="wow fadeInUp" src="{% static 'assets/img/about/1.jpg' %}" alt="Image Not Found">
+                        <img class="wow fadeInUp" data-wow-delay="300ms" src="{% static 'assets/img/about/2.jpg' %}" alt="Image Not Found">
+                        <img src="{% static 'assets/img/shape/19.png' %}" alt="Image Not Found">
                         <div class="experience">
                             <div class="fun-fact">
                                 <div class="counter">
@@ -334,14 +383,14 @@
                 <div class="col-lg-6 pl-60 pl-md-15 pl-xs-15">
                     <div class="about-style-one-info">
                         <h4 class="sub-title">About our agency</h4>
-                        <h2 class="title split-text">Expert visa solutions for your journey</h2>
+                        <h2 class="title split-text">{{ settings_id.title_about }}</h2>
                         <p class="wow fadeInUp" data-wow-delay="200ms">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            {{ settings_id.description_about }}
                         </p>
                         <ul class="card-style-one wow fadeInUp" data-wow-delay="300ms">
                             <li>
                                 <div class="icon">
-                                    <img src="assets/img/icon/1.png" alt="Image Not Found">
+                                    <img src="{% static 'assets/img/icon/1.png' %}" alt="Image Not Found">
                                 </div>
                                 <div class="info">
                                     <h4>Best immigration resources</h4>
@@ -349,14 +398,14 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <img src="assets/img/icon/2.png" alt="Image Not Found">
+                                    <img src="{% static 'assets/img/icon/2.png' %}" alt="Image Not Found">
                                 </div>
                                 <div class="info">
                                     <h4>Approved exam facilitation</h4>
                                 </div>
                             </li>
                         </ul>
-                        <div class="blockquote-text wow fadeInUp" data-wow-delay="400ms">Sponsoring and managing work visas parts now becoming results in the experience.</div>
+                        <div class="blockquote-text wow fadeInUp" data-wow-delay="400ms">{{ settings_id.end_description_about }}</div>
                     </div>
                 </div>
             </div>
@@ -366,16 +415,16 @@
 
     <!-- Start Visa Category 
     ============================================= -->
-    <div id="services" class="visa-category-area default-padding text-center bg-gray bg-cover" style="background-image: url(assets/img/shape/20.png);">
+    <div class="visa-category-area default-padding text-center bg-gray bg-cover" style="background-image: url(assets/img/shape/20.png);">
         <div class="shape-top-right">
-            <img src="assets/img/illustration/4.png" alt="Image Not Found">
+            <img src="{% static 'assets/img/illustration/4.png' %}" alt="Image Not Found">
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                     <div class="site-heading text-center">
                         <h4 class="sub-title">Varieties of visa</h4>
-                        <h2 class="title split-text">Achieve your dream of citizenship & immigration</h2>
+                        <h2 class="title split-text">{{ settings_id.title_viza }}</h2>
                     </div>
                 </div>
             </div>
@@ -392,12 +441,12 @@
                                 <div class="swiper-slide">
                                     <div class="visa-cat-style-one">
                                         <div class="thumb">
-                                            <img src="assets/img/category/1.jpg" alt="Image Not Found">
+                                            <img src="{% static 'assets/img/category/1.jpg' %}" alt="Image Not Found">
                                             <div class="shape">
-                                                <img src="assets/img/shape/39.png" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/shape/39.png' %}" alt="Image Not Found">
                                             </div>
                                             <div class="icon">
-                                                <img src="assets/img/icon/business-visa.png" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/icon/business-visa.png' %}" alt="Image Not Found">
                                             </div>
                                         </div>
                                         <div class="info">
@@ -410,7 +459,7 @@
                                             <a href="visa-details.html">
                                                 <i class="fas fa-angle-right"></i>
                                                 <span>Know More</span>
-                                                <div class="shape"><img src="assets/img/shape/40.png" alt="Image Not Found"></div>
+                                                <div class="shape"><img src="{% static 'assets/img/shape/40.png' %}" alt="Image Not Found"></div>
                                             </a>
                                         </div>
                                     </div>
@@ -420,12 +469,12 @@
                                 <div class="swiper-slide">
                                     <div class="visa-cat-style-one">
                                         <div class="thumb">
-                                            <img src="assets/img/category/2.jpg" alt="Image Not Found">
+                                            <img src="{% static 'assets/img/category/2.jpg' %}" alt="Image Not Found">
                                             <div class="shape">
-                                                <img src="assets/img/shape/39.png" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/shape/39.png' %}" alt="Image Not Found">
                                             </div>
                                             <div class="icon">
-                                                <img src="assets/img/icon/student-visa.png" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/icon/student-visa.png' %}" alt="Image Not Found">
                                             </div>
                                         </div>
                                         <div class="info">
@@ -438,7 +487,7 @@
                                             <a href="visa-details.html">
                                                 <i class="fas fa-angle-right"></i>
                                                 <span>Know More</span>
-                                                <div class="shape"><img src="assets/img/shape/40.png" alt="Image Not Found"></div>
+                                                <div class="shape"><img src="{% static 'assets/img/shape/40.png' %}" alt="Image Not Found"></div>
                                             </a>
                                         </div>
                                     </div>
@@ -448,12 +497,12 @@
                                 <div class="swiper-slide">
                                     <div class="visa-cat-style-one">
                                         <div class="thumb">
-                                            <img src="assets/img/category/3.jpg" alt="Image Not Found">
+                                            <img src="{% static 'assets/img/category/3.jpg' %}" alt="Image Not Found">
                                             <div class="shape">
-                                                <img src="assets/img/shape/39.png" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/shape/39.png' %}" alt="Image Not Found">
                                             </div>
                                             <div class="icon">
-                                                <img src="assets/img/icon/travel-visa.png" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/icon/travel-visa.png' %}" alt="Image Not Found">
                                             </div>
                                         </div>
                                         <div class="info">
@@ -466,7 +515,7 @@
                                             <a href="visa-details.html">
                                                 <i class="fas fa-angle-right"></i>
                                                 <span>Know More</span>
-                                                <div class="shape"><img src="assets/img/shape/40.png" alt="Image Not Found"></div>
+                                                <div class="shape"><img src="{% static 'assets/img/shape/40.png' %}" alt="Image Not Found"></div>
                                             </a>
                                         </div>
                                     </div>
@@ -487,15 +536,15 @@
         <div class="container">
             <div class="choose-us-style-one-frame default-padding">
                 <div class="thumb">
-                    <img src="assets/img/thumb/1.jpg" alt="Image Not Found">
+                    <img src="{% static 'assets/img/thumb/1.jpg' %}" alt="Image Not Found">
                 </div>
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="choose-us-style-one-info">
                             <h4 class="sub-title">Why Choose Us</h4>
-                            <h2 class="title split-text">Advantages of working with our consultancy</h2>
+                            <h2 class="title split-text">{{ settings_id.advantage }}</h2>
                             <p class="wow fadeInUp" data-wow-delay="100ms">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden.
+                                {{ settings_id.advantage_description }}
                             </p>
                         </div>
                     </div>
@@ -506,7 +555,7 @@
                         <div class="col-xl-3 col-md-6">
                             <div class="choose-us-style-one-item">
                                 <div class="icon">
-                                    <img src="assets/img/icon/37.png" alt="Image Not Found">
+                                    <img src="{% static 'assets/img/icon/37.png' %}" alt="Image Not Found">
                                 </div>
                                 <h4>Quick Visa Processing</h4>
                                 <p>
@@ -519,7 +568,7 @@
                         <div class="col-xl-3 col-md-6">
                             <div class="choose-us-style-one-item">
                                 <div class="icon">
-                                    <img src="assets/img/icon/dollar.png" alt="Image Not Found">
+                                    <img src="{% static 'assets/img/icon/dollar.png' %}" alt="Image Not Found">
                                 </div>
                                 <h4>Cost-Effective</h4>
                                 <p>
@@ -532,7 +581,7 @@
                         <div class="col-xl-3 col-md-6">
                             <div class="choose-us-style-one-item">
                                 <div class="icon">
-                                    <img src="assets/img/icon/36.png" alt="Image Not Found">
+                                    <img src="{% static 'assets/img/icon/36.png' %}" alt="Image Not Found">
                                 </div>
                                 <h4>Multi Country Support</h4>
                                 <p>
@@ -545,7 +594,7 @@
                         <div class="col-xl-3 col-md-6">
                             <div class="choose-us-style-one-item active">
                                 <div class="icon">
-                                    <img src="assets/img/icon/support.png" alt="Image Not Found">
+                                    <img src="{% static 'assets/img/icon/support.png' %}" alt="Image Not Found">
                                 </div>
                                 <h5>Need A Emergency Consultation?</h5>
                                 <div class="call-card">
@@ -570,13 +619,13 @@
 
     <!-- Start Visa Country 
     ============================================= -->
-    <div id="country" class="visa-country-area default-padding bg-dark text-light bg-cover" style="background-image: url(assets/img/shape/21.png);">
+    <div class="visa-country-area default-padding bg-dark text-light bg-cover" style="background-image: url(assets/img/shape/21.png);">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                     <div class="site-heading text-center">
                         <h4 class="sub-title">Explore Our Covered</h4>
-                        <h2 class="title split-text">Start your journey & pick <br> your ideal country</h2>
+                        <h2 class="title split-text">{{ settings_id.country_title }}</h2>
                     </div>
                 </div>
             </div>
@@ -589,7 +638,7 @@
                             <div class="visa-offer-country-item">
                                 <div class="country">
                                     <div class="icon">
-                                        <img src="assets/img/icon/france.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/france.png' %}" alt="Image Not Found">
                                     </div>
                                     <div class="content">
                                         <h5>France</h5>
@@ -610,7 +659,7 @@
                             <div class="visa-offer-country-item">
                                 <div class="country">
                                     <div class="icon">
-                                        <img src="assets/img/icon/uk.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/uk.png' %}" alt="Image Not Found">
                                     </div>
                                     <div class="content">
                                         <h5>United Kingdom</h5>
@@ -631,7 +680,7 @@
                             <div class="visa-offer-country-item">
                                 <div class="country">
                                     <div class="icon">
-                                        <img src="assets/img/icon/canada.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/canada.png' %}" alt="Image Not Found">
                                     </div>
                                     <div class="content">
                                         <h5>Canada</h5>
@@ -652,7 +701,7 @@
                             <div class="visa-offer-country-item">
                                 <div class="country">
                                     <div class="icon">
-                                        <img src="assets/img/icon/australia.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/australia.png' %}" alt="Image Not Found">
                                     </div>
                                     <div class="content">
                                         <h5>Australia</h5>
@@ -673,7 +722,7 @@
                             <div class="visa-offer-country-item">
                                 <div class="country">
                                     <div class="icon">
-                                        <img src="assets/img/icon/dubai.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/dubai.png' %}" alt="Image Not Found">
                                     </div>
                                     <div class="content">
                                         <h5>Dubai</h5>
@@ -706,7 +755,7 @@
                 <div class="col-xl-6 offset-xl-1 order-lg-last">
                     <div class="faq-style-one-items">
                         <h4 class="sub-title">Question & Answer</h4>
-                        <h2 class="title wow fadeInUp">Quick answers to common queries</h2>
+                        <h2 class="title wow fadeInUp">{{ settings_id.faq }}</h2>
                         <div class="accordion wow fadeInUp" data-wow-delay="100ms" id="faqAccordion">
                             <!-- Single Item -->
                             <div class="accordion-item accordion-style-one">
@@ -780,7 +829,7 @@
 
                 <div class="col-xl-5">
                     <div class="faq-style-one-thumb">
-                        <img src="assets/img/illustration/5.png" alt="Image Not Found">
+                        <img src="{{ settings_id.image_faq.url }}" alt="Image Not Found">
                     </div>
                 </div>
 
@@ -791,13 +840,13 @@
 
     <!-- Start Course 
     ============================================= -->
-    <div id="coaching" class="course-style-one-area default-padding-top">
+    <div class="course-style-one-area default-padding-top">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                     <div class="site-heading text-center">
                         <h4 class="sub-title">Coaching we provide</h4>
-                        <h2 class="title split-text">Discover the elite training programs you need</h2>
+                        <h2 class="title split-text">{{ settings_id.faq2 }}</h2>
                     </div>
                 </div>
             </div>
@@ -816,16 +865,16 @@
                         <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="course-style-one-item">
-                                <img src="assets/img/course/1.jpg" alt="Image Not Found">
+                                <img src="{% static 'assets/img/course/1.jpg' %}" alt="Image Not Found">
                                 <div class="overlay-title">
                                     <h4><a href="coaching-details.html">Entrepreneurs Starting</a></h4>
                                     <div class="icon">
-                                        <img src="assets/img/icon/3.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/3.png' %}" alt="Image Not Found">
                                     </div>
                                 </div>
                                 <div class="overlay">
                                     <div class="icon">
-                                        <img src="assets/img/icon/3.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/3.png' %}" alt="Image Not Found">
                                     </div>
                                     <h4><a href="coaching-details.html">Entrepreneurs Starting</a></h4>
                                     <p>
@@ -838,16 +887,16 @@
                         <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="course-style-one-item">
-                                <img src="assets/img/course/2.jpg" alt="Image Not Found">
+                                <img src="{% static 'assets/img/course/2.jpg' %}" alt="Image Not Found">
                                 <div class="overlay-title">
                                     <h4><a href="coaching-details.html">Visa Training</a></h4>
                                     <div class="icon">
-                                        <img src="assets/img/icon/4.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/4.png' %}" alt="Image Not Found">
                                     </div>
                                 </div>
                                 <div class="overlay">
                                     <div class="icon">
-                                        <img src="assets/img/icon/4.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/4.png' %}" alt="Image Not Found">
                                     </div>
                                     <h4><a href="coaching-details.html">Visa Training</a></h4>
                                     <p>
@@ -860,16 +909,16 @@
                         <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="course-style-one-item">
-                                <img src="assets/img/course/3.jpg" alt="Image Not Found">
+                                <img src="{% static 'assets/img/course/3.jpg' %}" alt="Image Not Found">
                                 <div class="overlay-title">
                                     <h4><a href="coaching-details.html">Immigration law</a></h4>
                                     <div class="icon">
-                                        <img src="assets/img/icon/5.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/5.png' %}" alt="Image Not Found">
                                     </div>
                                 </div>
                                 <div class="overlay">
                                     <div class="icon">
-                                        <img src="assets/img/icon/5.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/5.png' %}" alt="Image Not Found">
                                     </div>
                                     <h4><a href="coaching-details.html">Immigration law</a></h4>
                                     <p>
@@ -882,16 +931,16 @@
                         <!-- Single Item -->
                         <div class="swiper-slide">
                             <div class="course-style-one-item">
-                                <img src="assets/img/course/4.jpg" alt="Image Not Found">
+                                <img src="{% static 'assets/img/course/4.jpg' %}" alt="Image Not Found">
                                 <div class="overlay-title">
                                     <h4><a href="coaching-details.html">Business Development</a></h4>
                                     <div class="icon">
-                                        <img src="assets/img/icon/6.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/6.png' %}" alt="Image Not Found">
                                     </div>
                                 </div>
                                 <div class="overlay">
                                     <div class="icon">
-                                        <img src="assets/img/icon/6.png" alt="Image Not Found">
+                                        <img src="{% static 'assets/img/icon/6.png' %}" alt="Image Not Found">
                                     </div>
                                     <h4><a href="coaching-details.html">Business Development </a></h4>
                                     <p>
@@ -917,10 +966,10 @@
                     <div class="col-lg-8 offset-lg-2">
                         <div class="testimonial-style-one-contents">
                             <div class="testimonial-one-shape">
-                                <img class="wow fadeInUp" src="assets/img/team/7.jpg" alt="Image Not Found">
-                                <img class="wow fadeInUp" src="assets/img/team/8.jpg" alt="Image Not Found">
-                                <img class="wow fadeInUp" data-wow-delay="100ms" src="assets/img/team/9.jpg" alt="Image Not Found">
-                                <img class="wow fadeInUp" data-wow-delay="100ms" src="assets/img/team/10.jpg" alt="Image Not Found">
+                                <img class="wow fadeInUp" src="{% static 'assets/img/team/7.jpg' %}" alt="Image Not Found">
+                                <img class="wow fadeInUp" src="{% static 'assets/img/team/8.jpg' %}" alt="Image Not Found">
+                                <img class="wow fadeInUp" data-wow-delay="100ms" src="{% static 'assets/img/team/9.jpg' %}" alt="Image Not Found">
+                                <img class="wow fadeInUp" data-wow-delay="100ms" src="{% static 'assets/img/team/10.jpg' %}" alt="Image Not Found">
                             </div>
                             <!-- Slider main container -->
                             <div class="testimonial-style-one-carousel wow fadeInUp swiper">
@@ -930,7 +979,7 @@
                                     <div class="swiper-slide">
                                         <div class="testimonial-style-one-item">
                                             <div class="tm-provider">
-                                                <img src="assets/img/team/10.jpg" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/team/10.jpg' %}" alt="Image Not Found">
                                             </div>
                                             <div class="reviews">
                                                 <i class="fas fa-star"></i>
@@ -954,7 +1003,7 @@
                                     <div class="swiper-slide">
                                         <div class="testimonial-style-one-item">
                                             <div class="tm-provider">
-                                                <img src="assets/img/team/11.jpg" alt="Image Not Found">
+                                                <img src="{% static 'assets/img/team/11.jpg' %}" alt="Image Not Found">
                                             </div>
                                             <div class="reviews">
                                                 <i class="fas fa-star"></i>
@@ -990,17 +1039,17 @@
         <div class="container">
             <div class="call-to-action-style-one bg-dark text-light">
                 <div class="shape">
-                    <img src="assets/img/shape/24.png" alt="Image Not Found">
+                    <img src="{% static 'assets/img/shape/24.png' %}" alt="Image Not Found">
                 </div>
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="thumb bg-theme-secondary">
-                            <img class="wow fadeInUp" src="assets/img/illustration/6.png" alt="Image Not Found">
+                            <img class="wow fadeInUp" src="{% static 'assets/img/illustration/6.png' %}" alt="Image Not Found">
                             <div class="shape">
-                                <img src="assets/img/illustration/7.png" alt="Image Not Found">
-                                <img src="assets/img/shape/23.png" alt="Image Not Found">
-                                <img src="assets/img/shape/25.png" alt="Image Not Found">
-                                <img src="assets/img/shape/26.png" alt="Image Not Found">
+                                <img src="{% static 'assets/img/illustration/7.png' %}" alt="Image Not Found">
+                                <img src="{% static 'assets/img/shape/23.png' %}" alt="Image Not Found">
+                                <img src="{% static 'assets/img/shape/25.png' %}" alt="Image Not Found">
+                                <img src="{% static 'assets/img/shape/26.png' %}" alt="Image Not Found">
                             </div>
                         </div>
                     </div>
@@ -1019,13 +1068,13 @@
 
     <!-- Start Blog 
     ============================================= -->
-    <div id="blog" class="home-blog-area default-padding bg-gray">
+    <div class="home-blog-area default-padding bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                     <div class="site-heading text-center">
                         <h4 class="sub-title">News & Updates</h4>
-                        <h2 class="title split-text">Recent story & articles <br> in our community</h2>
+                        <h2 class="title split-text">{{ settings_id.news_title }}</h2>
                     </div>
                 </div>
             </div>
@@ -1036,7 +1085,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="home-blog-style-one wow fadeInUp">
                         <div class="thumb">
-                            <img src="assets/img/blog/1.jpg" alt="Image Not Found">
+                            <img src="{% static 'assets/img/blog/1.jpg' %}" alt="Image Not Found">
                         </div>
                         <div class="info">
                             <div class="inner">
@@ -1071,7 +1120,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="home-blog-style-one wow fadeInUp" data-wow-delay="100ms">
                         <div class="thumb">
-                            <img src="assets/img/blog/2.jpg" alt="Image Not Found">
+                            <img src="{% static 'assets/img/blog/2.jpg' %}" alt="Image Not Found">
                         </div>
                         <div class="info">
                             <div class="inner">
@@ -1115,8 +1164,8 @@
                 <div class="col-lg-4">
                     <div class="user-card">
                         <div class="thumb">
-                            <img src="assets/img/team/5.jpg" alt="Image Not Found">
-                            <img src="assets/img/team/6.jpg" alt="Image Not Found">
+                            <img src="{% static 'assets/img/team/5.jpg' %}" alt="Image Not Found">
+                            <img src="{% static 'assets/img/team/6.jpg' %}" alt="Image Not Found">
                             <span>4k</span>
                         </div>
                         <h4>Approved Student Visa Applications.</h4>
@@ -1147,8 +1196,8 @@
     </div>
     <footer class="bg-dark text-light">
         <div class="shape">
-            <img src="assets/img/shape/12.png" alt="Image Not Found">
-            <img src="assets/img/illustration/3.png" alt="Image Not Found">
+            <img src="{% static 'assets/img/shape/12.png' %}" alt="Image Not Found">
+            <img src="{% static 'assets/img/illustration/3.png' %}" alt="Image Not Found">
         </div>
         <div class="footer-style-one">
             <div class="container">
@@ -1157,7 +1206,7 @@
                         <div class="col-lg-4 col-md-6 footer-item">
                             <div class="f-item about">
                                 <div class="footer-logo">
-                                    <img src="assets/img/logo-light.svg" alt="Image Not Found">
+                                    <img src="{% static 'assets/img/logo-light.svg' %}" alt="Image Not Found">
                                 </div>
                                 <div class="f-item">
                                     <p>
@@ -1165,7 +1214,7 @@
                                     </p>
                                     <ul class="footer-social-regular mt-30">
                                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><img src="assets/img/icon/twitter-x.png" alt="Image Not Found"></a></li>
+                                        <li><a href="#"><img src="{% static 'assets/img/icon/twitter-x.png' %}" alt="Image Not Found"></a></li>
                                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                         <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
@@ -1253,25 +1302,25 @@
     
     <!-- jQuery Frameworks
     ============================================= -->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/progress-bar.min.js"></script>
-    <script src="assets/js/circle-progress.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="assets/js/count-to.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/YTPlayer.min.js"></script>
-    <script src="assets/js/validnavs.js"></script>
-    <script src="assets/js/gsap.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <script src="assets/js/SplitText.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="{% static 'assets/js/jquery-3.7.1.min.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.appear.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'assets/js/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'assets/js/progress-bar.min.js' %}"></script>
+    <script src="{% static 'assets/js/circle-progress.js' %}"></script>
+    <script src="{% static 'assets/js/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'assets/js/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'assets/js/magnific-popup.min.js' %}"></script>
+    <script src="{% static 'assets/js/count-to.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'assets/js/wow.min.js' %}"></script>
+    <script src="{% static 'assets/js/YTPlayer.min.js' %}"></script>
+    <script src="{% static 'assets/js/validnavs.js' %}"></script>
+    <script src="{% static 'assets/js/gsap.js' %}"></script>
+    <script src="{% static 'assets/js/ScrollTrigger.min.js' %}"></script>
+    <script src="{% static 'assets/js/SplitText.min.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
 
 </body>
 </html>

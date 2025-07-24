@@ -1,5 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from app.base.models import SettingsIndexPage, Banner
 
-def index(request):
-    return HttpResponse("Hello world")
+def index(requets):
+    settings_id = SettingsIndexPage.objects.latest("id")
+    banner_all = Banner.objects.all()
+    return render(requets, 'base/index.html', locals())
