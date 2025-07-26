@@ -95,6 +95,18 @@ class SettingsIndexPage(models.Model):
         max_length=155,
         verbose_name='Заголовка Новости'
     )
+    imageabout1 = models.ImageField(
+        upload_to='settings',
+        verbose_name='Фото о нас'
+    )
+    imageabout2 = models.ImageField(
+        upload_to='settings',
+        verbose_name='Фото о нас'
+    )
+    imageabout3 = models.ImageField(
+        upload_to='settings',
+        verbose_name='Фото о нас'
+    )
 
     def __str__(self):
         return self.title
@@ -115,3 +127,53 @@ class Banner(models.Model):
     class Meta:
         verbose_name = ''
         verbose_name_plural = 'Банер'
+
+class About(models.Model):
+    title = models.CharField(
+        max_length=155,
+        verbose_name='Заголовок'
+    )
+    image = models.ImageField(
+        upload_to='about',
+        verbose_name='Фото'
+    )
+    
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        verbose_name = ''
+        verbose_name_plural = 'о нас' 
+
+
+class Visa(models.Model):
+    title = models.CharField(
+        max_length=155,
+        verbose_name='Заголовок'
+    )
+    description = models.TextField(
+        verbose_name='Описание'
+    )
+    image1 = models.ImageField(
+        upload_to='visa',
+        verbose_name='Фото о нас'
+    )
+    image2 = models.ImageField(
+        upload_to='visa',
+        verbose_name='Фото о нас'
+    )
+    image3 = models.ImageField(
+        upload_to='visa',
+        verbose_name='Фото о нас'
+    )
+    image4 = models.ImageField(
+        upload_to='visa',
+        verbose_name='Фото о нас'
+    )
+
+    def __str__(self):
+        return self.title
+    
+    class Meta:
+        verbose_name=''
+        verbose_name_plural='Виза'    

@@ -1,0 +1,181 @@
+{% load static %}
+
+
+<div class="top-bar-area bg-dark text-light">
+        <div class="container">
+            <div class="row align-center">
+                <div class="col-xl-7 col-lg-7 info">
+                    <div class="address-info">
+                        <ul class="item-flex">
+                            <li>
+                                <a href="mailto:info@crysta.com"><i class="fas fa-envelope-open-text"></i> Info@validtheme.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i> Working Hours: 8:00 AM – 7:45 PM
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 text-end">
+                    <div class="d-flex">
+                        <div class="dropdown language-switcher">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="{% static 'assets/img/icon/us-flag.png' %}" alt="Image Not Found">
+                                English <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">Spanish</a></li>
+                              <li><a class="dropdown-item" href="#">Arabic</a></li>
+                            </ul>
+                        </div>
+                        <div class="social">
+                            <ul class="item-flex">
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="{% static 'assets/img/icon/twitter-x.png' %}" alt="Image Not Found">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<header>
+        <!-- Start Navigation -->
+        <nav class="navbar mobile-sidenav navbar-default validnavs navbar-sticky navbar-style-one">
+
+            <!-- Start Top Search -->
+            <div class="top-search">
+                <div class="container-xl">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Top Search -->
+
+
+            <div class="container d-flex justify-content-between align-items-center">            
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="{% url 'index' %}">
+                        <img src="{% static 'assets/img/logo-light.svg' %}" class="logo logo-display" alt="Logo">
+                        <img src="{% static 'assets/img/logo.svg' %}" class="logo logo-scrolled" alt="Logo">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+
+                    <img src="{% static 'assets/img/logo.svg' %}" alt="Logo">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-times"></i>
+                    </button>
+                    
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li><a href="{% url 'index' %}">Home page</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="{% url 'about' %}">About Style One</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Coaching</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="coaching.html">Coaching Style One</a></li>
+                                        <li><a href="coaching-details.html">Coaching Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Team</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="team.html">Team Style One</a></li>
+                                        <li><a href="team-details.html">Team Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="apply-form.html">Application Form</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                                <li><a href="404.html">Error Page</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Country</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="country.html">Country Version One</a></li>
+                                <li><a href="country-details.html">Country Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Visa</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="visa.html">Visa Version One</a></li>
+                                <li><a href="visa-details.html">Visa Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog-standard.html">Blog Standard</a></li>
+                                <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
+                                <li><a href="blog-single.html">Blog Single</a></li>
+                                <li><a href="blog-single-with-sidebar.html">Blog Single With Sidebar</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact-us.html">contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+                <div class="attr-right">
+                    <!-- Start Atribute Navigation -->
+                    <div class="attr-nav">
+                        <ul>
+                            <li class="contact">
+                                <div class="call">
+                                    <div class="icon">
+                                        <i class="fas fa-comments-alt-dollar"></i>
+                                    </div>
+                                    <div class="info">
+                                        <p>Have any Questions?</p>
+                                        <h5><a href="mailto:info@crysta.com">info@visaco.com</a></h5>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Atribute Navigation -->
+                </div>
+
+
+            </div>   
+            <!-- Overlay screen for menu -->
+            <div class="overlay-screen"></div>
+            <!-- End Overlay screen for menu -->
+
+        </nav>
+        <!-- End Navigation -->
+    </header>
